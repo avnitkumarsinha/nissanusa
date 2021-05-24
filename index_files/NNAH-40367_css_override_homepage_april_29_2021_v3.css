@@ -1,0 +1,87 @@
+.cta-list li a[title="FIND NISSAN SAFETY RECALL & SERVICE CAMPAIGN INFORMATION HERE"] {
+	background: #000;
+	border: #000;
+}
+
+.c_214 .vehicle-in-category-wrapper .vehicle-in-category-name-inner {
+    font-family: "Nissan Regular",Verdana,Arial,sans-serif;
+}
+
+.c_214 .content-wrapper .tabs-content {
+	background: transparent;
+	border: none;
+}
+
+.c_214 .tabs-container-head {
+	border-bottom: 1px solid #000;
+}
+
+.c_214 .tabs-list-item .item-link,
+.c_214 .tabs-list-item.active-tab .item-link {
+	background: transparent;
+}
+
+.c_214 .active-tab.tabs-list-item,
+.c_214 .tabs-list-item {
+	background: transparent;
+	border: none;
+}
+
+.c_214 .tabs-list-item span .item-link {
+	background: transparent;
+}
+
+.c_214 .tabs-list-item.active-tab .item-link::after {
+	bottom: -3px;
+}
+
+.c_320 {
+	position: absolute;
+	z-index: 1000000;
+}
+
+.c_corner-toast {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 1500px;
+	margin: 0 auto;
+	border-top: 1px solid #333;
+	border-bottom: none;
+}
+
+.c_256 .slick-next {
+	border-left: none;
+}
+
+.c_256 .slick-prev {
+	border-right: none;
+}
+
+.corner-toast-showing {
+	margin-bottom: 50px;
+}
+
+.c_214.accordion .content-wrapper .section-header .header-link {
+    background: transparent;
+}
+
+@media print,
+screen and (min-width: 48em) {
+	.c_311 .c_311--content_right .c_311--strapline-container_content,
+	.c_311 .c_311--content_right .c_311--text-container_content {
+		margin-left: 0;
+	}
+}
+
+@media print,
+screen and (min-width: 60em) {
+	.c_311 .c_311--content_right .c_311--strapline-container_content,
+	.c_311 .c_311--content_right .c_311--text-container_content {
+		margin-left: auto;
+	}
+	.c_258 .carousel-pfa_slide_content {
+		max-width: 540px;
+	}
+}
